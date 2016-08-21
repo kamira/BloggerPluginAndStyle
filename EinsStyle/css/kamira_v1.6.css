@@ -97,7 +97,7 @@ h3.post-title{font: normal normal 22px 'Trebuchet MS',Trebuchet,Verdana,sans-ser
 /* Accents
 ---------------------------------------------- */
 .section-columns td.columns-cell {border-$startSide: 1px solid transparent;}
-.blog-pager {background: #ffffff transparent url(/web/20150124144546/http://www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center;}
+.blog-pager {background: #ffffff transparent url(http://www.blogblog.com/1kt/simple/paging_dot.png) repeat-x scroll top center;}
 .blog-pager-older-link, .home-link, .blog-pager-newer-link {background-color: #ffffff;padding: 5px;}
 .footer-outer {border-top: 1px dashed #bbbbbb;}
 
