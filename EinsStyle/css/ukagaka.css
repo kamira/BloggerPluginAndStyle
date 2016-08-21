@@ -33,7 +33,7 @@ box-shadow:rgba(15,15,15,0.8) 0px 0px 8px;}
     box-shadow:rgba(15,15,15,0.8) 3px -3px 8px -3px;
 }
 /*    */
-#ukagaka_img{background: url(/web/20131223035300/http://my-blog-better-and-better--kamira.googlecode.com/files/surface0007.png) no-repeat;
+#ukagaka_img{background: url(http://kamira.github.io/BloggerPluginAndStyle/EinsStyle/img/surface0007.png) no-repeat;
 width: 126px;
 height: 329px;
 transform: scale(0.7);

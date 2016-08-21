@@ -28,7 +28,7 @@ $("span#addmenu_add").click(function(){
 		  add.indexOf('nav')>-1||add.indexOf('object')>-1||add.indexOf('embed')>-1)){
 		$.ajax({
 			type: 'POST',
-			url: '/web/20150124141909/https://docs.google.com/spreadsheet/formResponse?formkey=' + formkey + '&amp;ifq',
+			url: 'https://docs.google.com/spreadsheet/formResponse?formkey=' + formkey + '&amp;ifq',
 			data: { "entry.0.single": add },
 			success: function() {
 				alert("偽春菜學會了！");
@@ -41,7 +41,7 @@ $("span#addmenu_add").click(function(){
 });
 function reloadtalking(){
     /* JSON / load string from database */
-    $.getJSON("/web/20150124141909/https://spreadsheets.google.com/feeds/list/" + key + "/" + sheet + "/public/values?alt=json",function(JData){
+    $.getJSON("https://spreadsheets.google.com/feeds/list/" + key + "/" + sheet + "/public/values?alt=json",function(JData){
         for (var i=0; i < JData.feed.entry.length ;i++){
             talking[i]=JData.feed.entry[i].gsx$string.$t;}
 		$('input#addstring').attr('placeholder', '目前春菜學會了' + JData.feed.entry.length + '個字彙');
