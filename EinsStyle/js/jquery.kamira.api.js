@@ -5,7 +5,7 @@ function NoMoreIE(){
 		'IE瀏覽器不能完全支援本網站<br>' + 
 		'請使用以下瀏覽器代替<br><br>' + 
 		'IE browser cannot totally support the website.<br>' + 
-		'Please use Chrome, Firefox, or Opera instead.<br><br><br><br><a href="/web/20150124141429/http://www.google.com/intl/zh-TW/chrome/browser/"><img src="/web/20150124141429/http://i.imgur.com/oiEkI.png" title="Chrome" /></a><a href="/web/20150124141429/http://moztw.org/"><img src="/web/20150124141429/http://i.imgur.com/to9Lr.png" title="Firefox" /></a><a href="/web/20150124141429/http://www.opera.com/"><br><img src="/web/20150124141429/http://i.imgur.com/r1Xbh.png" alt="" title="Opera" /></a><a href="/web/20150124141429/http://www.apple.com/safari/"><img src="/web/20150124141429/http://i.imgur.com/J1d7s.png" alt="" title="Safari" /></a></div>');
+		'Please use Chrome, Firefox, or Opera instead.<br><br><br><br><a href="http://www.google.com/intl/zh-TW/chrome/browser/"><img src="http://i.imgur.com/oiEkI.png" title="Chrome" /></a><a href="http://moztw.org/"><img src="http://i.imgur.com/to9Lr.png" title="Firefox" /></a><a href="http://www.opera.com/"><br><img src="http://i.imgur.com/r1Xbh.png" alt="" title="Opera" /></a><a href="http://www.apple.com/safari/"><img src="http://i.imgur.com/J1d7s.png" alt="" title="Safari" /></a></div>');
 		$('#noie a').css('padding','10px');
 		$('#noie a img').css('width','250px');
 	}
