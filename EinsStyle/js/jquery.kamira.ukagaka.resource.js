@@ -15,9 +15,8 @@ $(window).load(function(){
     }
 });
 $(function() {
-	
 	google.charts.load('current');
-    reloadtalking();
+	google.charts.setOnLoadCallback(reloadtalking);
     
     $("#ukagaka_panel").draggable();
     $("span#ukagaka_btn_display").click(function() {$("#ukagaka_panel").fadeToggle(1000);});
