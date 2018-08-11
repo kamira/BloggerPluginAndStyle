@@ -6,6 +6,7 @@ var sheet="od6";
 var talking = [];
 
 $(window).load(function(){   
+	
     var talk_timer = setInterval(talkingbox, 10000);
     function talkingbox() {    
         if($("#ukagaka_msgbox").css("display") != 'none')
@@ -14,6 +15,8 @@ $(window).load(function(){
     }
 });
 $(function() {
+	
+	google.charts.load('current');
     reloadtalking();
     
     $("#ukagaka_panel").draggable();
