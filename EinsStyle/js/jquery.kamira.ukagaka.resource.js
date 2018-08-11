@@ -44,7 +44,7 @@ $(function() {
 function reloadtalking(){
     /* JSON / load string from database */
     function initialize() {
-        var opts = {sendMethod: 'auto'}
+        var opts = {sendMethod: 'auto'};
 
         var query = new google.visualization.Query('https://docs.google.com/spreadsheets/d/1rk1C0Insapzq3lBVm_SKA9dsLld9jCJ5X-aHczG-WW8/edit#gid=0', opts);
         query.setQuery('select B');
